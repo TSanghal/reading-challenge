@@ -4,6 +4,7 @@ import WorldMap from "@/components/WorldMap";
 import { useEffect, useState } from "react";
 
 export default function Home() {
+  // State to hold the countBooks.
   const [countryBooks, setCountryBooks] = useState<CountryBook[]>([]);
   // State to hold the count of completed books.
   const [countCompleted, setCountCompleted] = useState(0);
