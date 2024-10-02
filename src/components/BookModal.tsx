@@ -8,7 +8,7 @@ interface BookModalProps {
 }
 
 const BookModal: React.FC<BookModalProps> = ({ countryBook, isOpen, onClose }) => {
-  // If the modal isn't open or no country is provided, render nothing.
+  // If the modal isn't open or no countryBook is provided, render nothing.
   if (!isOpen || !countryBook) return null;
   
   return (
