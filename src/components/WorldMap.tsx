@@ -9,12 +9,12 @@ interface WorldMapProps {
 const WorldMap: React.FC<WorldMapProps> = ({ countryBooks }) => {
   // State to hold SVG content.
   const [svgContent, setSvgContent] = useState('');
-  // State to manage the selected country.
+  // State to manage the selected countryBook.
   const [selectedCountryBook, setSelectedCountryBook] = useState<CountryBook | null>(null);
   // State to manage modal visibility.
   const [isBookModalOpen, setIsBookModalOpen] = useState(false);
 
-  // Get country codes of countries that have books (and thus are completed).
+  // Get country codes of countries that have a book (and thus are completed).
   const countryCodesCompleted = countryBooks
     .filter(countryBook => countryBook.title !== null)
     .map(country => country.countryCode.toLowerCase());
