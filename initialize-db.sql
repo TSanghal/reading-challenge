@@ -21,7 +21,7 @@ INSERT INTO "CountryBook" VALUES(
   'Khaled Hosseini', 
   NULL,
   'After reading this novel with my book club, we had a heartfelt conversation about how it resonated with us as women, capturing the essence of our struggles and triumphs beautifully. In particular, Hosseini''s lyrical prose and exploration of various types of love and endurance struck a chord with me, making this one of my new favorite books. I cannot recommend it enough!',
-  TIMESTAMP '1970-01-01 00:00:00'
+  TIMESTAMP '2024-09-30 00:00:00'
 );
 INSERT INTO "CountryBook" VALUES(2,'Albania','Europe','AL',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "CountryBook" VALUES(3,'Algeria','Africa','DZ',NULL,NULL,NULL,NULL,NULL);
