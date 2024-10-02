@@ -1,0 +1,27 @@
+/* Styles for the container of the progress bar (overall layout on the page). */
+.progressContainer {
+  align-items: center;
+  background-color: #dfd4c3;
+  border-radius: 8px;
+  margin: 12px; 
+  overflow: visible; /* Allows content to overflow if necessary. */
+  position: relative; /* Enables positioning of child elements. */
+  width: calc(100% - 24px); /* Subtracts margins from full width for proper fit. */
+}
+
+/* Styles for the actual progress bar inside the container. */
+.progressBar {
+  background-color: #3e5974;
+  border-radius: 8px;
+  height: 48px;
+  position: relative; /* Enables positioning of child elements. */
+}
+
+/* Styles for the progress text displayed on the progress bar. */
+.progressText {
+  color: #eeeae2;
+  font-weight: bold;
+  left: 12px; /* Position text slightly away from the left edge. */
+  line-height: 48px; /* Center text vertically within the progress bar. */
+  position: absolute; /* Allows precise positioning within the parent. */
+}

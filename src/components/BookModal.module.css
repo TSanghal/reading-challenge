@@ -1,0 +1,78 @@
+/* Import Google Fonts for a fantasy theme */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+/* Styles for the modal overlay. */
+.modal {
+  align-items: center; 
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for the overlay. */
+  display: flex; /* Use flexbox for layout. */
+  height: 100%; /* Full height to cover the viewport. */
+  justify-content: center; 
+  left: 0;
+  position: fixed; /* Fixed positioning to stay in place when scrolling. */
+  top: 0;
+  width: 100%; /* Full width to cover the viewport. */
+  z-index: 1000; /* High z-index to ensure it appears above other elements. */
+}
+
+/* Styles for the content of the modal. */
+.modalContent {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth. */
+  max-width: 500px; 
+  padding: 0 0 10px 0px; /* Padding order: Top Right Bottom Left. */
+  width: 100%;
+}
+
+/* Styles for the title banner at the top of the modal. */
+.titleBanner {
+  align-items: center; /* Center items vertically within the banner. */
+  background-color: #dfd4c3;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between; /* Space between title and close button. */
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Styles for the title text. */
+.h1 {
+  color: #4d4c4b;
+  font-family: 'Playfair Display', serif; 
+  font-size: 18px;
+  font-weight: 550;
+  padding: 15px;
+  text-align: left;
+}
+
+/* Sets the text color, font family, and font size for the body text. */
+.body {
+  color: #4d4c4b;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+}
+
+/* Enables flexible layout for content, allowing a multi-column format. */
+.contentContainer {
+  display: flex;
+}
+
+/* Formats the column containing the image. */
+.imageContainer {
+  padding: 5px 20px 0 15px; /* Padding order: Top Right Bottom Left. */
+  max-width: 200px;
+}
+
+/* Ensures images fit within their container without distortion. */
+.image {
+  width: 100%;
+  height: auto; 
+  border-radius: 8px; /* Adds rounded corners for a softer look. */
+}
+
+/* Sets padding for the container that holds descriptions. */
+.descriptionContainer {
+  padding: 5px 20px; /* Padding order: Top/Bottom Right/Left. */
+}
