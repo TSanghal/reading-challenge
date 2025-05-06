@@ -16,7 +16,7 @@ const WorldMap: React.FC<WorldMapProps> = ({ countryBooks }) => {
 
   // Get country codes of countries that have a book (and thus are completed).
   const countryCodesCompleted = countryBooks
-    .filter(countryBook => countryBook.title !== null)
+    .filter(countryBook => countryBook.title && countryBook.title !== "")
     .map(country => country.countryCode.toLowerCase());
 
   // Fetch SVG content on component mount.
