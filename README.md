@@ -4,6 +4,13 @@ I built this site to share all the books I will read along the way.
 
 It is live on [Around the World in 192 Days](https://reading-challenge-red.vercel.app/). 
 
+## Tech Stack
+- **React**: For building the component-based user interface.
+- **JavaScript**: Core language used throughout the frontend.
+- **CSV** *(Local Storage)*: Used to store book data locally instead of a database.
+- **Heroku** *(Deprecated)*: Initially used for backend data storage, later replaced to reduce cost and complexity.
+- **Yarn**: Package manager for handling dependencies and development scripts.
+
 ## Usage 
 This project uses yarn as the package manager.
 
