@@ -32,7 +32,7 @@ export default function Home() {
       </h1>
       {/* Description paragraph about the reading challenge. */}
       <p style={{ margin: '20px' }}>
-        I am on a mission to read a book from every country on Earth—yes, all 193 of them! 
+        I am on a mission to read a book from every country on Earth - yes, all 193 of them! 
         Follow along for a literary adventure that spans continents, cultures, and curiosities!
       </p>
       {/* Render the ProgressBar component. */}

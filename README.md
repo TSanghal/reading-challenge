@@ -1,5 +1,5 @@
 ## Background
-I am on a mission to read a book from every country on Earth—yes, all 193 of them! 
+I am on a mission to read a book from every country on Earth - yes, all 193 of them! 
 I built this site to share all the books I will read along the way.
 
 It is live on [Around the World in 193 Days](https://global-reading-challenge-y5qk.vercel.app/). 
