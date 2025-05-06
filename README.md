@@ -1,8 +1,8 @@
-## Background
+## Around the World in 192 Days
 I am on a mission to read a book from every country on Earth - yes, all 192 of them! 
 I built this site to share all the books I will read along the way.
 
-It is live on [Around the World in 192 Days](https://reading-challenge-red.vercel.app/). 
+A deployed version is live [here on Vercel](https://reading-challenge-red.vercel.app/). 
 
 ## Tech Stack
 - **React**: For building the component-based user interface.
