@@ -51,6 +51,7 @@
 /* Enables flexible layout for content, allowing a multi-column format. */
 .contentContainer {
   display: flex;
+  padding: 0px 20px 0 0px;
 }
 
 /* Formats the column containing the image. */
@@ -63,10 +64,11 @@
 .image {
   width: 100%;
   height: auto; 
-  border-radius: 8px; /* Adds rounded corners for a softer look. */
+  border-radius: 4px; /* Adds rounded corners for a softer look. */
 }
 
 /* Sets padding for the container that holds descriptions. */
 .descriptionContainer {
   padding: 5px 20px; /* Padding order: Top/Bottom Right/Left. */
+  text-align: justify;
 }
