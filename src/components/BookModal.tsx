@@ -48,10 +48,10 @@ const BookModal: React.FC<BookModalProps> = ({ countryBook, isOpen, onClose }) =
               </div>
             </div>
             <div className={styles.descriptionContainer}> {/* Container for the book description. */}
-                <div className={styles.body}>
-                  <strong>Description:</strong> {countryBook.description}
-                </div>
+              <div className={styles.body}>
+                <strong>Description:</strong> {countryBook.description}
               </div>
+            </div>
           </div>
         </div>
       </div>
